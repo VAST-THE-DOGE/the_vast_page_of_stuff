@@ -10,7 +10,7 @@ const cardsData = [
         cardWidth: '100%',
         imageLink: '',
         title: 'Welcome',
-        desc: 'Welcome to my website traveler. I am VAST THE DOGE (William Herbert), a 17 year old junior in college studying computer science with a focus on cuber security. This website was made using React with Material UI and is on my Github account if you want to "borrow" the website. Some of the cards below are links, hover over it to see if it is or look for the blue highlight behind the text.',
+        desc: 'Welcome to my website traveler. I am VAST THE DOGE (William Herbert), a 17 year old junior in college studying computer science with a focus on cyber security. This website was made using React with Material UI and is on my Github account if you want to "borrow" the website. Some of the cards below are links, hover over it to see if it is or look for the blue highlight behind the text.',
         link: '',
         circleImage: false,
     },
