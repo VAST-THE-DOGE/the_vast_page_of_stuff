@@ -1,22 +1,21 @@
 import React from 'react';
 import backgroundImage from './winterBackground.jpg';
-import '@fontsource/press-start-2p'; // Install with `npm install @fontsource/press-start-2p`
+import '@fontsource/press-start-2p';
 import './App.css';
-import * as Mui from '@mui/material';
 import {Box, Typography, Grid2, Card, CardMedia, Link, useTheme} from "@mui/material";
 
 const cardsData = [
     {
-        cardColor: '#456273',
+        cardColor: '#3988b1',
         cardWidth: '100%',
         imageLink: '',
         title: 'Welcome',
-        desc: 'This is a work in progress link page, you see nothing',
+        desc: 'Welcome to my website traveler. I am VAST THE DOGE (William Herbert), a 17 year old junior in college studying computer science with a focus on cuber security. This website was made using React with Material UI and is on my Github account if you want to "borrow" the website. Some of the cards below are links, hover over it to see if it is or look for the blue highlight behind the text.',
         link: '',
         circleImage: false,
     },
     {
-        cardColor: '#456273',
+        cardColor: '#5e75c4',
         cardWidth: 'flex',
         imageLink: 'https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png',
         title: 'Discord',
@@ -25,7 +24,7 @@ const cardsData = [
         circleImage: true,
     },
     {
-        cardColor: '#456273',
+        cardColor: '#1a4966',
         cardWidth: 'flex',
         imageLink: 'https://www.generation4x4mag.fr/wp-content/uploads/2022/12/Steam-logo-png.png.webp',
         title: 'Steam',
@@ -34,7 +33,7 @@ const cardsData = [
         circleImage: true,
     },
     {
-        cardColor: '#456273',
+        cardColor: '#a62322',
         cardWidth: 'flex',
         imageLink: 'https://www.freeiconspng.com/uploads/hd-youtube-logo-png-transparent-background-20.png',
         title: 'YouTube',
@@ -43,7 +42,7 @@ const cardsData = [
         circleImage: true,
     },
     {
-        cardColor: '#456273',
+        cardColor: '#454545',
         cardWidth: 'flex',
         imageLink: 'https://pngimg.com/uploads/github/github_PNG40.png',
         title: 'Github',
@@ -52,7 +51,7 @@ const cardsData = [
         circleImage: true,
     },
     {
-        cardColor: '#456273',
+        cardColor: '#f3f3f3',
         cardWidth: 'flex',
         imageLink: 'https://w7.pngwing.com/pngs/608/931/png-transparent-gmail-new-logo-icon.png',
         title: 'Email',
@@ -61,7 +60,7 @@ const cardsData = [
         circleImage: true,
     },
     {
-        cardColor: '#456273',
+        cardColor: '#3876aa',
         cardWidth: '50%',
         imageLink: 'https://repository-images.githubusercontent.com/738748647/2edc846e-d2db-40c6-ba53-b9711eada980',
         title: 'Tiles',
@@ -81,13 +80,18 @@ function App() {
             }}
         >
             <Box
+                //Images:
+                // - Winter:
+                //    - https://i.pinimg.com/originals/71/5a/3d/715a3d6dcdd4225528d79f104e2e0785.gif
+                //    - https://images4.alphacoders.com/112/thumb-1920-1122701.jpg
+                //    - https://wallpapercave.com/wp/wp6839057.jpg
                 sx={{
                     position: 'fixed',
                     top: 0,
                     left: 0,
                     width: '100%',
                     height: '100%',
-                    backgroundImage: 'url(https://wallpapercave.com/wp/wp6839057.jpg)', // Replace with your image URL
+                    backgroundImage: 'url(https://images4.alphacoders.com/112/thumb-1920-1122701.jpg)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundAttachment: 'fixed',
